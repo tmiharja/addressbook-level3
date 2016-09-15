@@ -12,7 +12,7 @@
         <TextField fx:id="commandInput" onAction="#onCommand" VBox.vgrow="NEVER">
         </TextField>
 
-        <TextArea fx:id="outputConsole" editable="false" wrapText="true" VBox.vgrow="ALWAYS">
+        <TextArea fx:id="outputConsole" styleClass="text-area" stylesheets="@DarkTheme.css" editable="false" wrapText="true" VBox.vgrow="ALWAYS">
         </TextArea>
 
     </children>
